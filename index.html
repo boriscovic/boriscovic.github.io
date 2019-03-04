@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smolovic Transport</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="img/SmolovicTransportLogo.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lightbox.min.css" /> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
+    <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <section id="pocetna">
+        <nav id="nav-bar">
+        <img src="img/SmolovicTransport.png" class="logo">
+        <ul>
+                <li><a href="#pocetna">Početna</a></li>
+                <li><a href="#o_nama">O nama</a></li>
+                <li><a href="#galerija">Galerija</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <div class="toggle">
+        </div>
+        <div class="overlay">
+        </div>
+        </nav>
+        <div id="nav-bar2">
+            <ul>
+                <li><a href="#pocetna">Početna</a></li>
+                <li><a href="#o_nama">O nama</a></li>
+                <li><a href="#galerija">Galerija</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
+        <div class="background">
+            <img src="img/iveco.jpg">
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.toggle').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('.overlay').toggleClass('active')
+                    $('#nav-bar2').toggleClass('active')
+                })
+            })
+        </script>    
+    </section>
+    <section id="o_nama">
+        <div class="naslov">
+            <h1>O NAMA</h1>
+        </div>
+        <p>Smolović Transport je osnovan 2017. godine u Bijelom Polju i 
+        osnovna djelatnost firme je transport različitih vrsta robe, 
+        kako u zemlji, tako i u regionu. Naši kamioni vrše transport 
+        robe na svim destinacijama u regionu, a o kvalitetu naših usluga 
+        svedoče naši mnogobrojni zadovoljni korisnikci.</p>
+        <p>U mogućnosti smo da Vam ponudimo povoljne, sigurne i brze 
+        usluge prevoza, uvoza – izvoza za sve Vaše potrebe. Sigurnost
+        robe je naš podrazumijevani dio posla. Kao klijent u mogućnosti
+        ste da u svakom trenutku transporta robe imate kontakt sa
+        odgovornom osobom.</p>
+        <img src="img/iveco2.jpg" alt="">
+    </section>
+    <section id="galerija">
+        <div class="naslov2">
+            <h1>GALERIJA</h1>
+        </div>
+        <div class="images">
+            <a href="img/img1.jpg" data-lightbox="myimages"><img src="img/s-img1.jpg"></a>
+            <a href="img/img2.jpg" data-lightbox="myimages"><img src="img/s-img2.jpg"></a>
+            <a href="img/img3.jpg" data-lightbox="myimages"><img src="img/s-img3.jpg"></a>
+            <a href="img/img4.jpg" data-lightbox="myimages"><img src="img/s-img4.jpg"></a>
+            <a href="img/img5.jpg" data-lightbox="myimages"><img src="img/s-img5.jpg"></a>
+            <a href="img/img6.jpg" data-lightbox="myimages"><img src="img/s-img6.jpg"></a>
+            <a href="img/img7.jpg" data-lightbox="myimages"><img src="img/s-img7.jpg"></a>
+            <a href="img/img8.jpg" data-lightbox="myimages"><img src="img/s-img8.jpg"></a>
+            <a href="img/img9.jpg" data-lightbox="myimages"><img src="img/s-img9.jpg"></a>
+            <a href="img/img10.jpg" data-lightbox="myimages"><img src="img/s-img10.jpg"></a>
+        </div>
+    </section>
+    <section id="kontakt">
+        <div class="naslov3">
+            <h1>KONTAKT</h1>
+        </div>
+        <div class="kontakt1">
+            <p>Adresa: Kruševo, Bijelo Polje, Crna Gora</p>
+            <p>Tel: +382(0)68/818-414</p>
+            <p>Viber: +382(0)68/662-661</p>
+        </div>
+        <div class="kontakt2">
+            <a href="mailto:smolovictrans@gmail.com"><i class="fas fa-envelope fa-lg"><p>Email</p></i></a>
+            <div class="fb">
+                <a href="https://www.facebook.com/smolovic.nikola"><i class="fab fa-facebook-f fa-lg"><p>Facebook</p></i></a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy;Smolovic Transport 2019</p>
+        <div class="designer">
+            <a href="mailto:bcovic55@gmail.com"><h5>Designer: Boris Čović</h5></a>
+        </div>
+    </footer>
+</body>
+</html>

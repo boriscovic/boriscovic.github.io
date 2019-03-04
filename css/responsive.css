@@ -1,0 +1,410 @@
+/*------------pocetna-----------*/
+@media(max-width: 2560px){
+    #nav-bar{
+        height: 160px;
+        line-height: 160px;
+    }
+    #nav-bar ul li{
+        height: 160px;
+    }
+    .naslov{
+        width: 200px;
+        height: 90px;
+    }
+    .naslov h1{
+        line-height: 90px;
+        font-size: 32px;
+    }
+    #o_nama{
+        height: 900px;
+    }
+    #o_nama p{
+        font-size: 30px;
+    }
+    #o_nama img{
+        margin-top: -350px;
+    }
+    .naslov2{
+        width: 200px;
+        height: 90px;
+    }
+    .naslov2 h1{
+        line-height: 90px;
+        font-size: 32px;
+    }
+    #galerija{
+        height: 400px;
+    }
+    .naslov3{
+        width: 200px;
+        height: 90px;
+    }
+    .naslov3 h1{
+        line-height: 90px;
+        font-size: 32px;
+    }
+    #galerija{
+        height: 1000px;
+    }
+    .images{
+        margin-left: 10%;
+    }
+    #kontakt{
+        height: 300px;
+    }
+    .kontakt1{
+        font-size: 30px;
+    }
+    .kontakt2{
+        font-size: 30px;
+    }
+    #footer p{
+        font-size: 30px;
+    }
+    .designer h5{
+        font-size: 20px;
+    }
+}
+@media(max-width: 1798px){
+    #o_nama{
+        height: 750px;
+    }
+    #o_nama img{
+        margin-top: -400px;
+    }
+    #galerija{
+        height: 800px;
+    }
+}
+@media(max-width: 1440px){
+    #nav-bar{
+        height: 80px;
+        line-height: 80px
+    }
+    #nav-bar ul li{
+        height: 80px;
+    }
+    #o_nama{
+        height: 600px;
+    }
+    #o_nama p{
+        font-size: 25px;
+    }
+    #o_nama img{
+        margin-top: -380px;
+    }
+    .naslov{
+        width: 150px;
+        height: 60px;
+    }
+    .naslov h1{
+        line-height: 60px;
+        font-size: 28px;
+    }
+    .naslov2{
+        width: 150px;
+        height: 60px;
+    }
+    .naslov2 h1{
+        line-height: 60px;
+        font-size: 28px;
+    }
+    #galerija{
+        height: 600px;
+    }
+    .naslov3{
+        width: 150px;
+        height: 60px;
+    }
+    .naslov3 h1{
+        line-height: 60px;
+        font-size: 28px;
+    }
+    #kontakt{
+        height: 200px;
+    }
+    .kontakt1{
+        font-size: 20px;
+    }
+    .kontakt2{
+        font-size: 20px;
+    }
+    #footer p{
+        font-size: 25px;
+    }
+    .designer h5{
+        font-size: 15px;
+    }
+}
+@media(max-width: 1024px){
+    #nav-bar{
+        height: 60px;
+    }
+    #nav-bar ul li{
+        height: 60px;
+    }
+    #o_nama{
+        height: 480px;
+    }
+    #o_nama p{
+        font-size: 20px;
+    }
+    #o_nama img{
+        margin-top: -340px;
+    }
+    .naslov{
+        width: 140px;
+        height: 55px;
+    }
+    .naslov h1{
+        line-height: 50px;
+        font-size: 28px;
+    }
+    .naslov2{
+        width: 140px;
+        height: 55px;
+    }
+    .naslov2 h1{
+        line-height: 50px;
+        font-size: 28px;
+    }
+    #galerija{
+        height: 500px;
+    }
+    .naslov3{
+        width: 140px;
+        height: 55px;
+    }
+    .naslov3 h1{
+        line-height: 50px;
+        font-size: 28px;
+    }
+    .kontakt1{
+        font-size: 18px
+    }
+}
+@media(max-width: 823px){
+    #o_nama{
+        height: 550px;
+    }
+    #o_nama img{
+        margin-top: -400px;
+    }
+    #galerija{
+        height: 400px;
+    }
+}
+@media(max-width: 812px){
+    #o_nama{
+        height: 500px;
+    }
+    #o_nama p{
+        width: 50%;
+    }
+    #o_nama img{
+        margin-top: -330px;
+    }
+}
+@media(max-width: 768px){
+    #o_nama{
+        height: 600px;
+    }
+    #o_nama img{
+        margin-top: -370px;
+    }
+    #galerija{
+        height: 400px;
+    }
+    .images{
+        margin-left: 5%;
+    }
+    .kontakt1{
+        font-size: 15px;
+    }
+    .kontakt2{
+        font-size: 15px;
+    }
+    #footer p{
+        font-size: 20px;
+    }
+    .designer h5{
+        font-size: 12px;
+    }
+}
+@media(max-width: 731px){
+    #o_nama img{
+        margin-top: -480px;
+    }
+    .images img{
+        width: 17%;
+        height: 17%;
+    }
+}
+@media(max-width: 640px){
+    #nav-bar{
+        height: 40px;
+    }
+    #nav-bar ul li{      
+        display: none;
+    }
+    #nav-bar2{
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .toggle{
+        display: flex;
+        height: 40px;
+        width: 40px;
+    }
+    .overlay{
+        display: flex;
+        height: 40px;
+        width: 40px;
+    }
+    #o_nama{
+        height: 440px;
+    }
+    #o_nama p{
+        width: 50%;
+        font-size: 16px;
+    }
+    #o_nama img{
+        margin-top: -300px;
+    }
+    .naslov{
+        width: 110px;
+        height: 50px;
+    }
+    .naslov h1{
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .naslov2{
+        width: 110px;
+        height: 50px;
+    }
+    .naslov2 h1{
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .naslov3{
+        width: 110px;
+        height: 50px;
+    }
+    .naslov3 h1{
+        line-height: 50px;
+        font-size: 16px;
+    }
+    #galerija{
+        height: 350px;
+    }
+}
+@media(max-width: 568px){
+    .kontakt1{
+        width: 40%;
+    }
+}
+@media(max-width: 425px){
+    #pocetna{
+        padding-bottom: 10px;
+    }
+    .naslov{
+        width: 100px;
+        height: 40px;
+    }
+    .naslov h1{
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #o_nama{
+        height: 270px;
+    }
+    #o_nama p{
+        width: 50%;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    #o_nama img{
+        margin-top: -210px;
+    }
+    .naslov2{
+        width: 100px;
+        height: 40px;
+    }
+    .naslov2 h1{
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .naslov3{
+        width: 100px;
+        height: 40px;
+    }
+    .naslov3 h1{
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #galerija{
+        height: 850px;
+    }
+    .images{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .images img{
+        width: 45%;
+        height: 45%;
+    }
+    #kontakt{
+        height: 150px;
+    }
+    .kontakt1{
+        font-size: 12px;
+        width: 55%;
+    }
+    .kontakt2{
+        font-size: 12px;
+    }
+    #footer{
+        height: 60px;
+    }
+    #footer p{
+        line-height: 60px;
+        font-size: 14px;
+    }
+    .designer{
+        width: 40%;
+        height: 30px;
+    }
+    .designer h5{
+        line-height: 30px;
+        font-size: 10px;
+    }
+}
+@media(max-width: 375px){
+    #o_nama img{
+        margin-top: -225px;
+    }
+    #galerija{
+        height: 800px;
+    }
+}
+@media(max-width: 360px){
+    #o_nama{
+        height: 320px;
+    }
+    #o_nama img{
+        margin-top: -250px;
+    }
+}
+@media(max-width: 320px){
+    #o_nama{
+        height: 340px;
+    }
+    #o_nama img{
+        margin-top: -280px;
+    }   
+    #galerija{
+        height: 700px;
+    }
+}
