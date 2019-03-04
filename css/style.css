@@ -167,12 +167,12 @@
     border-bottom-right-radius: 5vh;
     border-top-left-radius: 5vh;
 }
-.naslov h1{
+.naslov h2{
     text-align: center;
-    line-height: 60px;
     color: white;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 28px;
+    line-height: 60px;
 }
 #o_nama p{
     display: flex;
@@ -205,7 +205,7 @@
     border-bottom-right-radius: 5vh;
     border-top-left-radius: 5vh;
 }
-.naslov2 h1{
+.naslov2 h2{
     text-align: center;
     line-height: 60px;
     color: white;
@@ -239,7 +239,7 @@
     border-bottom-right-radius: 5vh;
     border-top-left-radius: 5vh;
 }
-.naslov3 h1{
+.naslov3 h2{
     text-align: center;
     line-height: 60px;
     color: white;
