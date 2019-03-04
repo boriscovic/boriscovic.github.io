@@ -144,7 +144,7 @@
         height: 60px;
     }
     #o_nama{
-        height: 480px;
+        height: 520px;
     }
     #o_nama p{
         font-size: 20px;
@@ -235,9 +235,7 @@
     .logo{
         width: 35vw;
     }
-    #o_nama img{
-        margin-top: -480px;
-    }
+
     .images img{
         width: 17%;
         height: 17%;
@@ -307,8 +305,34 @@
     }
 }
 @media(max-width: 568px){
+    #o_nama{
+        height: 500px;
+    }
+    #o_nama img{
+        margin-top: -320px;
+    }
     .kontakt1{
         width: 40%;
+    }
+}
+@media(max-width: 510px){
+    #o_nama{
+        height: 450px;
+    }
+    #o_nama p{
+        font-size: 14px;
+    }
+    .images{
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+}
+@media(max-width: 469px){
+    .images{
+        margin-left: 15%;
+    }
+    #footer p{
+        font-size: 15px;
     }
 }
 @media(max-width: 425px){
