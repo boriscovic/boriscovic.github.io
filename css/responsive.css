@@ -315,6 +315,9 @@
     #pocetna{
         padding-bottom: 10px;
     }
+    .toggle:before{
+        font-size: 15vw;
+    }
     .naslov{
         width: 100px;
         height: 40px;
@@ -396,6 +399,9 @@
     }
 }
 @media(max-width: 360px){
+    .toggle:before{
+        font-size: 19vw;
+    }
     #o_nama{
         height: 320px;
     }
