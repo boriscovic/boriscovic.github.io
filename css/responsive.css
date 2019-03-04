@@ -244,6 +244,9 @@
     #nav-bar{
         height: 40px;
     }
+    .logo{
+        width: 48vw;
+    }
     #nav-bar ul li{      
         display: none;
     }
