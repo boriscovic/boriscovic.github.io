@@ -13,9 +13,10 @@
 #nav-bar{
     width: 100%;
     height: 80px;
-    background-color: rgba(99, 99, 99, .4);
+    background-color: rgba(214, 214, 214, 0.6);
     display: flex;
     position: fixed;
+    z-index: 1;
 }
 .logo{
     margin-left: 4vw;
@@ -125,6 +126,7 @@
     margin-right: 5%;
     padding: 0;
     margin-top: 50px;
+    z-index: 1;
 }
 #nav-bar2 ul li{
     list-style-type: none;
@@ -156,9 +158,16 @@
 /*------------pocetna----------*/
 /*------------O nama-----------*/
 #o_nama{
+    display: flex;
     height: 500px;
     background-color: #757575;
     padding-bottom: 30px;
+}
+.box{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: auto;
 }
 .naslov{
     width: 150px;
@@ -174,22 +183,33 @@
     font-size: 28px;
     line-height: 60px;
 }
-#o_nama p{
+.tekst{
+    width: 50%;
+    height: auto;
+    background-color: #757575;
+    margin: 0;
+    margin-top: 100px;
+}
+.tekst p{
     display: flex;
     text-align: justify;
-    font-family: 'Roboto Condensed', sans-serif;
-    width: 40%; 
+    font-family: 'Roboto Condensed', sans-serif; 
     font-size: 20px; 
-    margin-top: 60px;
-    margin-left: 7vw;
+    margin-top: 20px;
+    margin-left: 5%;
 }
-#o_nama img{
+.slicica{
     display: flex;
-    width: 30%;
+    width: 50%;
     height: auto;
-    margin-right: 7vw;
-    float: right;
-    margin-top: -300px;
+    background-color: #757575;
+    margin: 0;
+    margin-top: 100px;
+}
+.slicica img{
+    width: 60%;
+    height: auto;
+    margin-top: 20px;
 }
 /*------------O nama-----------*/
 /*------------Galerija---------*/
