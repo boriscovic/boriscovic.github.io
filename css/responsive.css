@@ -11,7 +11,7 @@
         width: 200px;
         height: 90px;
     }
-    .naslov h2{
+    .naslov p{
         line-height: 90px;
         font-size: 32px;
     }
@@ -25,7 +25,7 @@
         width: 200px;
         height: 90px;
     }
-    .naslov2 h2{
+    .naslov2 p{
         line-height: 90px;
         font-size: 32px;
     }
@@ -36,7 +36,7 @@
         width: 200px;
         height: 90px;
     }
-    .naslov3 h2{
+    .naslov3 p{
         line-height: 90px;
         font-size: 32px;
     }
@@ -55,11 +55,8 @@
     .kontakt2{
         font-size: 30px;
     }
-    #footer p{
+    .copy{
         font-size: 30px;
-    }
-    .designer h5{
-        font-size: 20px;
     }
 }
 @media(max-width: 1798px){
@@ -91,7 +88,7 @@
         width: 150px;
         height: 60px;
     }
-    .naslov h2{
+    .naslov p{
         line-height: 60px;
         font-size: 28px;
     }
@@ -99,7 +96,7 @@
         width: 150px;
         height: 60px;
     }
-    .naslov2 h2{
+    .naslov2 p{
         line-height: 60px;
         font-size: 28px;
     }
@@ -110,7 +107,7 @@
         width: 150px;
         height: 60px;
     }
-    .naslov3 h2{
+    .naslov3 p{
         line-height: 60px;
         font-size: 28px;
     }
@@ -123,11 +120,8 @@
     .kontakt2{
         font-size: 20px;
     }
-    #footer p{
+    .copy{
         font-size: 25px;
-    }
-    .designer h5{
-        font-size: 15px;
     }
 }
 @media(max-width: 1024px){
@@ -147,7 +141,7 @@
         width: 140px;
         height: 55px;
     }
-    .naslov h2{
+    .naslov p{
         line-height: 50px;
         font-size: 28px;
     }
@@ -155,7 +149,7 @@
         width: 140px;
         height: 55px;
     }
-    .naslov2 h2{
+    .naslov2 p{
         line-height: 50px;
         font-size: 28px;
     }
@@ -166,7 +160,7 @@
         width: 140px;
         height: 55px;
     }
-    .naslov3 h2{
+    .naslov3 p{
         line-height: 50px;
         font-size: 28px;
     }
@@ -201,11 +195,11 @@
     .kontakt2{
         font-size: 15px;
     }
-    #footer p{
+    .copy{
         font-size: 20px;
     }
-    .designer h5{
-        font-size: 12px;
+    .designer{
+        width: 30%;
     }
 }
 @media(max-width: 731px){
@@ -247,7 +241,7 @@
         width: 110px;
         height: 50px;
     }
-    .naslov h2{
+    .naslov p{
         line-height: 50px;
         font-size: 16px;
     }
@@ -255,7 +249,7 @@
         width: 110px;
         height: 50px;
     }
-    .naslov2 h2{
+    .naslov2 p{
         line-height: 50px;
         font-size: 16px;
     }
@@ -263,7 +257,7 @@
         width: 110px;
         height: 50px;
     }
-    .naslov3 h2{
+    .naslov3 p{
         line-height: 50px;
         font-size: 16px;
     }
@@ -281,12 +275,18 @@
         margin-right: 0%;
         margin-left: 0%;
     }
+    .designer{
+        width: 40%;
+    }
+    .designer p{
+        font-size: 10px;
+    }
 }
 @media(max-width: 469px){
     .images{
         margin-left: 15%;
     }
-    #footer p{
+    .copy{
         font-size: 15px;
     }
 }
@@ -307,7 +307,7 @@
     .slicica{
         margin-top: 60px;
     }
-    .naslov h2{
+    .naslov p{
         line-height: 40px;
         font-size: 18px;
     }
@@ -315,7 +315,7 @@
         width: 100px;
         height: 40px;
     }
-    .naslov2 h2{
+    .naslov2 p{
         line-height: 40px;
         font-size: 18px;
     }
@@ -329,7 +329,7 @@
         width: 100px;
         height: 40px;
     }
-    .naslov3 h2{
+    .naslov3 p{
         line-height: 40px;
         font-size: 18px;
     }
@@ -357,17 +357,9 @@
     #footer{
         height: 60px;
     }
-    #footer p{
+    .copy{
         line-height: 60px;
         font-size: 14px;
-    }
-    .designer{
-        width: 40%;
-        height: 30px;
-    }
-    .designer h5{
-        line-height: 30px;
-        font-size: 10px;
     }
 }
 @media(max-width: 375px){
