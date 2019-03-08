@@ -132,7 +132,7 @@
         height: 60px;
     }
     #o_nama{
-        height: 450px;
+        height: 500px;
     }
     .tekst p{
         font-size: 22px;
@@ -266,11 +266,20 @@
     }
 }
 @media(max-width: 568px){
+    #o_nama{
+        height: 570px;
+    }
     .kontakt1{
         width: 40%;
     }
 }
 @media(max-width: 510px){
+    #o_nama{
+        height: 600px;
+    }
+    .tekst p{
+        font-size: 18px;
+    }
     .images{
         margin-right: 0%;
         margin-left: 0%;
